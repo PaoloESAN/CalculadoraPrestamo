@@ -14,7 +14,7 @@ fun Navigator() {
     val navController = rememberNavController()
     val viewModel: CalculadoraViewModel = viewModel()
 
-    NavHost(navController = navController, startDestination = "input") {
+    NavHost(navController = navController, startDestination = "inicio") {
         composable("inicio") {
             InicioScreen(
                 viewModel = viewModel
